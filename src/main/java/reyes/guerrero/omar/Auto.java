@@ -32,7 +32,7 @@ public class Auto {
     public boolean existencia(short numID)
     {
         
-    if(numID-100>0)
+    if(numID-600<= 0)
     {
         return b=true;
     }
