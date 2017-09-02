@@ -23,9 +23,9 @@ public class Bicicleta {
     
     public void pedalea()
     {
-        System.out.println("A tu manera, descomplicado \n" +
-        "En una bici que te lleve a todos lados \n" +
-        "Un vallenato desesperado \n" +
+        System.out.println("A tu manera, descompilado \n" +
+        "En una clase que te lleve a todos lados \n" +
+        "Un vallenato no declarado \n" +
         "Una cartica que yo guardo donde te escribíiiiIIIIIIIIII... ");
     }
     
