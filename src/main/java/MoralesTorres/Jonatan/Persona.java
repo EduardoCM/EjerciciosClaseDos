@@ -4,8 +4,8 @@ public class Persona {
     private String nombre;
     private String sexo;
     
-    Persona madre;
-    Persona padre;
+    private Persona madre;
+    private Persona padre;
     
     public String getNombre() {
         return nombre;
