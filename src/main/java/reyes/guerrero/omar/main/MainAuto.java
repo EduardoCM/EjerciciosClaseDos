@@ -17,7 +17,7 @@ public class MainAuto {
         Auto gtr34 = new Auto ();
         gtr34.color = "azul";
         gtr34.marca = "Nissan GTR";
-        gtr34.numID = 4344;
+        gtr34.numID = 434;
         gtr34.numSerie = 433434343;
         gtr34.precio = 1158000.67;
         
