@@ -34,11 +34,11 @@ public class Auto {
         
     if(numID-600<= 0)
     {
-        return b=true;
+        return true;
     }
     else
     {
-        return b=false;
+        return false;
     }
             
     }

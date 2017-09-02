@@ -1,29 +1,35 @@
-package MoralesTorres.Jonatan;
+package castillomendoza.eduardo.encapsulacion;
 
 public class Persona {
-    public String nombre;
-    public String sexo;
     
-    public Persona madre;
-    public Persona padre;
+    private String nombre;
+    private String sexo;
+    
+    private Persona madre;
+    private Persona padre;
+    
     
     public Persona reproducirse(Persona persona){
         Persona hijo = null;
-        if(this.sexo.equals(persona.sexo)){
-            System.out.println("No se reproducieron exitosamente");
-        }else{
-            //try{
-                hijo = new Persona();
-                //this.padre = this;
-                //this.madre = persona;
+        
+        if(persona != null && this.sexo!=persona.sexo){
+            hijo = new Persona();
+            hijo.nombre = "Jorge";
+            
+            if(sexo.equals("F")){
+                hijo.madre = this;
+                hijo.padre = persona;
+            }else if (sexo.equals("M")){
                 hijo.padre = this;
                 hijo.madre = persona;
-                hijo.nombre = "JonyD";
-                hijo.sexo = "Masculino";
-                System.out.println("Se reproducieron exitosamente");
-            //}catch(Exception e){}
+            }
+            
+        }else{
+            System.out.println("Somos felices, pero no podemos tener hijos");
         }
+        
         return hijo;
+        
     }
 
     public String getNombre() {
@@ -57,6 +63,7 @@ public class Persona {
     public void setPadre(Persona padre) {
         this.padre = padre;
     }
+    
     
     
 }

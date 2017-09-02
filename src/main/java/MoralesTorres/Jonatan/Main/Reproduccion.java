@@ -15,8 +15,14 @@ public class Reproduccion {
         Persona Maria = new Persona();
         Maria.nombre = "Maria";
         Maria.sexo = "Mujer";
+      
+        Persona hijo = Juan.reproducirse(Juan);
         
-        Juan.reproducirse(Pedro);
-        Juan.reproducirse(Maria);
+        System.out.println("Madre: " + hijo.madre.getNombre());
+        System.out.println("Padre: " + hijo.padre.getNombre());
+
+        
+        
+
     }
 }
