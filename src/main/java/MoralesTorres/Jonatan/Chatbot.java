@@ -26,4 +26,9 @@ public class Chatbot {
     public String obtenerNombre(){
         return this.nombre;
     }
+    
+    @Override
+    public String toString() {
+        return "Chatbot{" + "nombre=" + nombre + ", tema=" + tema + ", now=" + now + '}';
+    }    
 }

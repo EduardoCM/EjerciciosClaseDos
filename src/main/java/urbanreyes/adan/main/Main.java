@@ -13,7 +13,10 @@ public class Main {
 		m.turnOn();
 		
 		Person ayan = new Person("Ayan Urban", 'M');
-		ayan.makeBaby(new Person("Alizita Rios", 'F'), "Emi", 'M');
-		
+		Person s = ayan.makeBaby(new Person("Alizita Rios", 'F'), "Emi", 'F');
+		if(s != null) {
+			System.out.println("Congratulations " + s.father.getFullName()  + "and " + s.mother.getFullName());
+			System.out.println("You have a beatiful " + ((s.getGender() == 'M') ? "boy " : "girl named ") + s.getFullName());
+		}
 	}
 }

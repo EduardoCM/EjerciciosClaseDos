@@ -30,4 +30,13 @@ public class Person{
 		}
 		return s;
 	}
+	
+	public String getFullName() {
+		return fullName;
+	}
+	
+	public char getGender() {
+		return gender;
+	}
+	
 }
