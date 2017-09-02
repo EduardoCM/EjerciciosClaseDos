@@ -1,6 +1,7 @@
 package urbanreyes.adan.main;
 
 import urbanreyes.adan.Mobile;
+import urbanreyes.adan.Person;
 
 public class Main {
 	public static void main(String[] args) {
@@ -10,5 +11,9 @@ public class Main {
 		m.setFree();
 		m.turnOff();
 		m.turnOn();
+		
+		Person ayan = new Person("Ayan Urban", 'M');
+		ayan.makeBaby(new Person("Alizita Rios", 'F'), "Emi", 'M');
+		
 	}
 }
