@@ -15,6 +15,7 @@ public class Principal {
         Bicicleta b=new Bicicleta();
         b.setBici("Gazelle",gears, 21000);
         int precio=b.cuantoCuesta();
+        System.out.println("El precio de la bici es " + precio);
         b.pedalea();
         
     }
