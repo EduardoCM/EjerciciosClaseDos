@@ -19,6 +19,7 @@ public class Bicicleta {
         marca=ma;
         noEngranes=e;
         precio=p;
+        System.out.println("Se han guardados los datos de la bici " + marca + "con " + noEngranes + "engranes");
     }
     
     public void pedalea()
