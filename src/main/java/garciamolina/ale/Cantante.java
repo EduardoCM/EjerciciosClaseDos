@@ -49,7 +49,7 @@ public class Cantante {
         System.out.println("Se ha eliminado la cancion: " + cancion);
     }
     else {
-        System.out.println("El artista " + nombre + " no cuenta con esa cancion en su repertorio");
+        System.out.println("El artista " + nombre + " no cuenta con la cancion "+ cancion + " en su repertorio");
     }   
     }
     
